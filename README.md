@@ -8,6 +8,8 @@
 
 > **仓库名** Body Management · **模组 ID** `bodymorph`（`fabric.mod.json` 内名称仍为 *Body Morph*）。
 
+**完整玩法说明（机制、数值、FAQ）：** 请阅读 **[GAMEPLAY.md](GAMEPLAY.md)**。
+
 ---
 
 ## 功能概览
