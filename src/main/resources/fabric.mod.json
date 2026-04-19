@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "bodymorph",
+  "version": "${version}",
+  "name": "Body Morph",
+  "description": "玩家体型动态变化（肥胖值与 Pehkui 缩放）",
+  "authors": [
+    "Body Morph"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ShuangJinl/BodyManagement",
+    "sources": "https://github.com/ShuangJinl/BodyManagement"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bodymorph.BodyMorphMod"
+    ],
+    "client": [
+      "com.bodymorph.client.BodyMorphClient"
+    ]
+  },
+  "mixins": [
+    "bodymorph.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.6",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "pehkui": ">=3.8.3"
+  }
+}

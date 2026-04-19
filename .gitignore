@@ -1,0 +1,30 @@
+# Gradle / Loom
+build/
+.gradle/
+out/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.code-workspace
+
+# Local dev / run dirs (Fabric Loom)
+run/
+runs/
+
+# OS / misc
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.tmp
+
+# Cursor (optional local AI rules — omit from public clone)
+.cursor/
+
+# Never commit secrets
+*.pem
+local.properties
